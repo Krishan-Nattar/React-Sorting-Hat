@@ -18,7 +18,6 @@ class House extends React.Component {
   }
   winner = () => {
     let points = this.props.points;
-    console.log(points);
 
     if (points.g === 3) {
       this.setState({ winner: "G" });
@@ -70,7 +69,7 @@ class House extends React.Component {
 
     return (
       <div>
-        Winner:
+        
         {this.state.winner === "G" ? (
           <Gryffindor />
         ) : this.state.winner === "H" ? (
