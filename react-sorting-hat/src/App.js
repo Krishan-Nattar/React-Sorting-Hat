@@ -55,22 +55,17 @@ class App extends Component {
     newQuestion.shift();
     this.setState({ question: newQuestion });
     this.increment();
-    // console.log('here')
-    // console.log(newQuestion);
     this.addPoint(index);
   };
 
   addPoint = house => {
-    // console.log(house);
     let fullPoints = {...this.state.points};
-    // console.log(fullPoints);
     switch (house) {
       case "G":
         fullPoints.g = fullPoints.g + 1;
         break;
       case "H":
           fullPoints.h = fullPoints.h + 1
-        // console.log('hh')
         break;
       case "R":
           fullPoints.r = fullPoints.r + 1
@@ -80,7 +75,6 @@ class App extends Component {
         break;
     }
     this.setState({points: fullPoints});
-    // console.log(this.state.points, house);
   };
 
   render() {

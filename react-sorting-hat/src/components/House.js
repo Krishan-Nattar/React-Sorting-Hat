@@ -67,19 +67,9 @@ class House extends React.Component {
   };
 
   render() {
-    // {
 
-    // let winner="G";
-    // console.log(winner);
-    // }
-    // if(this.state.winner === ""){
-    //     console.log("running");
-    //     this.winner()
-
-    // }
     return (
       <div>
-        {/* {(this.state.winner) ? console.log('t') : console.log(this.state.winner, 'false')} */}
         Winner:
         {this.state.winner === "G" ? (
           <Gryffindor />
@@ -92,10 +82,6 @@ class House extends React.Component {
         ) : (
           console.log("nothing")
         )}
-        {/* <Gryffindor />
-            <Hufflepuff />
-            <Ravenclaw />
-            <Slytherin /> */}
       </div>
     );
   }
