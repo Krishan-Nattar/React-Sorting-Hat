@@ -3,3 +3,58 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.welcome-page{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/door-3454601_1920.jpg'), url('./images/hogwarts-2036645_1920.jpg');
+  background-blend-mode: darken;
+}
+
+.welcome-page .welcome-header,
+.question-page .question-header{
+  color:whitesmoke;
+}
+
+
+.welcome-page img#hat,
+.question-page img#hat{
+  width: 200px;
+}
+.welcome-page h1,
+.question-page h1{
+  margin-top: -50px;
+  margin-bottom: 10px;
+}
+
+#progress-bar{
+  width: 50%;
+  margin: 30px auto;
+}
+
+.question-page #show-house{
+  display:none;
+  transition: 2s;
+}
+
+.question-page{
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/door-3454601_1920.jpg'), url('./images/hogwarts-2036645_1920.jpg');
+  background-blend-mode: darken;
+}
+
+.question-page div.content{
+  background-color: wheat !important;
+  background-image: url('./images/hogwarts-2036645_1920.jpg') !important;
+  /* background-size: auto; */
+  background-blend-mode: overlay;
+}
