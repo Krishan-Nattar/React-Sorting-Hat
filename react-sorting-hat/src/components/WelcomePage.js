@@ -11,7 +11,6 @@ class WelcomePage extends React.Component {
   handleClose = () => this.setState({ modalOpen: false });
 
   handleStart = () => {
-    console.log("we begin");
     this.props.history.push("/questions");
   };
   render() {
