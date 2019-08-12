@@ -1,18 +1,11 @@
 import React from "react";
-import { bigIntLiteral } from "@babel/types";
 
 class House extends React.Component {
   state = {};
 
   winner = () => {
     let points = this.props.points;
-    //  console.log(points);
 
-    //  points.forEach((item,index)=>{
-    //     if(item===3){
-    //         console.log(index, "is the winner");
-    //     }
-    //  })
     if (points.g === 3) {
       console.log("g wins");
       return;
