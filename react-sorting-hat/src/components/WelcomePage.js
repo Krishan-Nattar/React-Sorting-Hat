@@ -4,12 +4,18 @@ import {Route, Link} from 'react-router-dom';
 
 class WelcomePage extends React.Component {
     state = {  }
+
+    // checkName = () =>{
+        
+    // }
     render() { 
         return ( 
             <div>
-                Welcome Page
-                {/* Add Question Page */}
-                <Questions />
+                Welcome to Hogwarts!
+                <br /><br />
+                <button><Link to="/questions">Enter</Link></button>
+                
+                <Route exact path="/questions" component={Questions} />
             </div> 
         );
     }

@@ -1,11 +1,20 @@
 import React from 'react';
 import {Route, Link} from 'react-router-dom';
+import Question from './Question';
 
 class Questions extends React.Component {
-    state = {  }
+    state = { 
+
+     }
+
+     askQuestion = () =>{
+
+     }
     render() { 
         return ( 
-            <div>Questions</div>
+                <div>
+                    <Question />
+                </div>
              );
     }
 }
