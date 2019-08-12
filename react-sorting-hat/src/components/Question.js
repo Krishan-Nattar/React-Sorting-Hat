@@ -15,10 +15,10 @@ class Question extends React.Component {
       </Card.Content>
       <Card.Content extra>
         <div className='ui two buttons'>
-          <Button basic color='green' onClick={()=>this.props.handleAnswer(1)}>
+          <Button basic color='green' onClick={()=>this.props.handleAnswer(this.props.question[3])}>
             {this.props.question[1]}
           </Button>
-          <Button basic color='purple' onClick={()=>this.props.handleAnswer(2)}>
+          <Button basic color='purple' onClick={()=>this.props.handleAnswer(this.props.question[4])}>
             {this.props.question[2]}
           </Button>
         </div>
