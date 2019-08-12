@@ -5,7 +5,10 @@ class House extends React.Component {
         // welcome: "Enter!",
 
      }
+     
+
     render() { 
+        console.log(this.props.points);
         return ( <div>House Selection</div> );
     }
 }
