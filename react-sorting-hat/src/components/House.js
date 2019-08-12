@@ -1,22 +1,36 @@
-import React from "react";
+import React, { useEffect } from "react";
+
+import Gryffindor from "./Gryffindor";
+import Hufflepuff from "./Hufflepuff";
+import Ravenclaw from "./Ravenclaw";
+import Slytherin from "./Slytherin";
 
 class House extends React.Component {
-  state = {};
+  constructor(props) {
+    super(props);
+    this.state = {
+      winner: ""
+    };
+  }
 
+  componentDidMount() {
+    this.winner();
+  }
   winner = () => {
     let points = this.props.points;
+    console.log(points);
 
     if (points.g === 3) {
-      console.log("g wins");
+      this.setState({ winner: "G" });
       return;
     } else if (points.h === 3) {
-      console.log("h wins");
+      this.setState({ winner: "H" });
       return;
     } else if (points.r === 3) {
-      console.log("r wins");
+      this.setState({ winner: "R" });
       return;
     } else if (points.s === 3) {
-      console.log("s wins");
+      this.setState({ winner: "S" });
       return;
     } else {
       let index = [];
@@ -37,26 +51,53 @@ class House extends React.Component {
 
       switch (randomItem) {
         case 0:
-          console.log("ran grif");
+          this.setState({ winner: "G" });
           break;
         case 1:
-          console.log("ran huff");
+          this.setState({ winner: "H" });
           break;
         case 2:
-          console.log("ran rav");
+          this.setState({ winner: "R" });
           break;
         case 3:
-          console.log("ran slyth");
+          this.setState({ winner: "S" });
           break;
       }
     }
   };
 
   render() {
-    {
-      this.winner();
-    }
-    return <div>House Selection</div>;
+    // {
+
+    // let winner="G";
+    // console.log(winner);
+    // }
+    // if(this.state.winner === ""){
+    //     console.log("running");
+    //     this.winner()
+
+    // }
+    return (
+      <div>
+        {/* {(this.state.winner) ? console.log('t') : console.log(this.state.winner, 'false')} */}
+        Winner:
+        {this.state.winner === "G" ? (
+          <Gryffindor />
+        ) : this.state.winner === "H" ? (
+          <Hufflepuff />
+        ) : this.state.winner === "R" ? (
+          <Ravenclaw />
+        ) : this.state.winner === "S" ? (
+          <Slytherin />
+        ) : (
+          console.log("nothing")
+        )}
+        {/* <Gryffindor />
+            <Hufflepuff />
+            <Ravenclaw />
+            <Slytherin /> */}
+      </div>
+    );
   }
 }
 
