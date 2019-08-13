@@ -79,7 +79,7 @@ class House extends React.Component {
         ) : this.state.winner === "S" ? (
           <Slytherin />
         ) : (
-          console.log("nothing")
+          null
         )}
       </div>
     );

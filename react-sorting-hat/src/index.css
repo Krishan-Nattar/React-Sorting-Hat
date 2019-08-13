@@ -58,3 +58,18 @@ body {
   /* background-size: auto; */
   background-blend-mode: overlay;
 }
+div.ui.aligned.segment{
+  /* min-height: 200px !important; */
+}
+
+h1.header{
+  /* color:red !important; */
+  /* margin-top: 0px !important; */
+}
+
+.ui.inverted.segment, .ui.primary.inverted.segment{
+  background-image: url('./images/gbadge.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
