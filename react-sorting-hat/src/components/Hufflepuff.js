@@ -127,36 +127,26 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as="h3" style={{ fontSize: "2em" }}>
-              Welcome To Gryffindor
+              Welcome To Hufflepuff
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              Founded by Godric Gryffindor, Gryffindors are associated with
-              daring, bravery, nerve and chivalry. Gryffindors can be cocky and
-              reckless. They are more prone to saying something or getting into
-              a hairy situation before thinking it through than other Hogwarts
-              houses.
+              Founded by Helga Hufflepuff, Hufflepuffs are associated with trustworthiness, loyalty and a strong work ethic. Hufflepuff has produced the fewest Dark witches and wizards of any house.
             </p>
 
             <h3>Notable alumni include:</h3>
             <p style={{ fontSize: "1.33em" }}>
-              Godric Gryffindor: Founder of Gryffindor House. His chocolate frog
-              card describes him as the most accomplished dueller of his time
-              and an enlightened fighter against Muggle discrimination.
+            Helga Hufflepuff: Founder of Hufflepuff House. Her chocolate frog card describes her as a loyal, charming witch with great skill at performing food-related charms.
             </p>
             <p style={{ fontSize: "1.33em" }}>
-              Minerva McGonagall: Head of Gryffindor House. She is the
-              Transfiguration teacher at Hogwarts. Minerva is a stern witch, but
-              very righteous.
+            Pomona Sprout: Head of Hufflepuff House. She is the Head of Herbology at Hogwarts and brings interesting plants, including ones that dance and talk, to the Hufflepuff common room, possibly the reason why Hufflepuffs are generally good at herbology.
             </p>
             <p style={{ fontSize: "1.33em" }}>
-              Nearly Headless Nick: House ghost. He was beheaded, but the axe
-              was blunt so it took many chops until he was finally dead. He is a
-              friendly ghost who will help any who need it.
+            The Fat Friar: House ghost. He is a plump, friendly man wearing monk robes and is always willing to help Hufflepuffs who are lost or in trouble.
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
             <Image size="large" src="./images/hufflepuff.png" />
-            
+
           </Grid.Column>
         </Grid.Row>
       </Grid>

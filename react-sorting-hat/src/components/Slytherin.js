@@ -127,31 +127,23 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as="h3" style={{ fontSize: "2em" }}>
-              Welcome To Gryffindor
+              Welcome To Slytherin
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              Founded by Godric Gryffindor, Gryffindors are associated with
-              daring, bravery, nerve and chivalry. Gryffindors can be cocky and
-              reckless. They are more prone to saying something or getting into
-              a hairy situation before thinking it through than other Hogwarts
-              houses.
+            Founded by Salazar Slytherin, Slytherins are associated with cunning, ambition and a tendency to look after their own.
+
+Slytherin has produced its share of Dark witches and wizards, but members are not afraid to admit it.
             </p>
 
             <h3>Notable alumni include:</h3>
             <p style={{ fontSize: "1.33em" }}>
-              Godric Gryffindor: Founder of Gryffindor House. His chocolate frog
-              card describes him as the most accomplished dueller of his time
-              and an enlightened fighter against Muggle discrimination.
+            Salazar Slytherin: Founder of Slytherin house. His chocolate frog card describes him as one of the first Parselmouths, an accomplished Legilimens and a notorious champion of pure-blood supremacy.
             </p>
             <p style={{ fontSize: "1.33em" }}>
-              Minerva McGonagall: Head of Gryffindor House. She is the
-              Transfiguration teacher at Hogwarts. Minerva is a stern witch, but
-              very righteous.
+            Severus Snape: Head of Slytherin House. He is the Hogwarts Potions master. Professor Snape's office is in the dungeons.
             </p>
             <p style={{ fontSize: "1.33em" }}>
-              Nearly Headless Nick: House ghost. He was beheaded, but the axe
-              was blunt so it took many chops until he was finally dead. He is a
-              friendly ghost who will help any who need it.
+            The Bloody Baron: House ghost. He seems mysterious and unfriendly to the other houses, but he is actually very kind to Slytherins and will usually agree to scare people for them if asked nicely. Just don't ask how he got bloodstained, he doesn't like it.
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>

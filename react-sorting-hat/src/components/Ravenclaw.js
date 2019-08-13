@@ -127,31 +127,21 @@ const HomepageLayout = () => (
         <Grid.Row>
           <Grid.Column width={8}>
             <Header as="h3" style={{ fontSize: "2em" }}>
-              Welcome To Gryffindor
+              Welcome To Ravenclaw
             </Header>
             <p style={{ fontSize: "1.33em" }}>
-              Founded by Godric Gryffindor, Gryffindors are associated with
-              daring, bravery, nerve and chivalry. Gryffindors can be cocky and
-              reckless. They are more prone to saying something or getting into
-              a hairy situation before thinking it through than other Hogwarts
-              houses.
+            Founded by Rowena Ravenclaw, Ravenclaws possess the traits of cleverness, wisdom, wit, intellectual ability and creativity. According to Slytherin prefect Gemma Farley, Ravenclaws are so competitive when it comes to academic success that they are known to back stab each other, and likely other students, in order to get top marks. Many well-known inventors and innovators have come from Ravenclaw.
             </p>
 
             <h3>Notable alumni include:</h3>
             <p style={{ fontSize: "1.33em" }}>
-              Godric Gryffindor: Founder of Gryffindor House. His chocolate frog
-              card describes him as the most accomplished dueller of his time
-              and an enlightened fighter against Muggle discrimination.
+            Rowena Ravenclaw: Founder of Ravenclaw House. She was known as a beautiful and intelligent witch, and her chocolate frog card calls her "the most brilliant witch of her time." Rowena valued learning, so she chose students who demonstrated cleverness and wisdom.
             </p>
             <p style={{ fontSize: "1.33em" }}>
-              Minerva McGonagall: Head of Gryffindor House. She is the
-              Transfiguration teacher at Hogwarts. Minerva is a stern witch, but
-              very righteous.
+            Filius Flitwick: Head of Ravenclaw House. He is the Charms professor at Hogwarts and the most knowledgeable Charms master alive today. According to the original Pottermore welcome letter, when Ravenclaws are extremely upset he makes little cupcakes do a dance to cheer them up.
             </p>
             <p style={{ fontSize: "1.33em" }}>
-              Nearly Headless Nick: House ghost. He was beheaded, but the axe
-              was blunt so it took many chops until he was finally dead. He is a
-              friendly ghost who will help any who need it.
+            The Grey Lady also known as Helena Ravenclaw: House ghost. She rarely speaks to anyone outside Ravenclaw, but is a great resource for Ravenclaws who are lost or have lost something.
             </p>
           </Grid.Column>
           <Grid.Column floated="right" width={6}>
