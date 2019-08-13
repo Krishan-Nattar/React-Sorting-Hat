@@ -54,6 +54,7 @@ class DesktopContainer extends Component {
           onBottomPassedReverse={this.hideFixedMenu}
         >
           <Segment
+          id="gryffindor-1"
             inverted
             textAlign="center"
             style={{ minHeight: 300, padding: "1em 0em" }}
@@ -90,6 +91,7 @@ class MobileContainer extends Component {
       >
         <Sidebar.Pusher dimmed={sidebarOpened}>
           <Segment
+          id="gryffindor-2"
             inverted
             textAlign="center"
             style={{ minHeight: 350, padding: "1em 0em" }}
@@ -159,7 +161,7 @@ const HomepageLayout = () => (
       </Grid>
     </Segment>
 
-    <Segment inverted vertical style={{ padding: "5em 0em" }} />
+    <Segment id="gryffindor-footer" inverted vertical style={{ padding: "5em 0em" }} />
   </ResponsiveContainer>
 );
 export default HomepageLayout;

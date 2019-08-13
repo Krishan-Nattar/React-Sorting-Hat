@@ -55,20 +55,41 @@ body {
 .question-page div.content{
   background-color: wheat !important;
   background-image: url('./images/hogwarts-2036645_1920.jpg') !important;
-  /* background-size: auto; */
   background-blend-mode: overlay;
 }
-div.ui.aligned.segment{
-  /* min-height: 200px !important; */
-}
 
-h1.header{
-  /* color:red !important; */
-  /* margin-top: 0px !important; */
-}
-
-.ui.inverted.segment, .ui.primary.inverted.segment{
+/* .ui.inverted.segment, .ui.primary.inverted.segment */
+#gryffindor-footer,
+#gryffindor-1,
+#gryffindor-2{
   background-image: url('./images/gbadge.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hufflepuff-footer,
+#hufflepuff-1,
+#hufflepuff-2{
+  background-image: url('./images/hbadge.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ravenclaw-footer,
+#ravenclaw-1,
+#ravenclaw-2{
+  background-image: url('./images/rbadge.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#slytherin-footer,
+#slytherin-1,
+#slytherin-2{
+  background-image: url('./images/sbadge.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
