@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "react-sorting-app",
+    "builds": [{ "src": "react-sorting-app/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "react-sorting-app/$1" }
+    ]
+}
